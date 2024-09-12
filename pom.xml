@@ -33,16 +33,12 @@
     				<cloudHubDeployment>
 				      <uri>https://anypoint.mulesoft.com</uri>
 				      <muleVersion>${app.runtime}</muleVersion>
-				      <username>${username}</username>
-				      <password>${password}</password>
-				      <applicationName>${cloudhub.application.name}</applicationName>
-				      <environment>${environment}</environment>
-				      <region>${region}</region>
+				      <username>${anypoint.username}</username>
+				      <password>${anypoint.password}</password>
+				      <applicationName>${appname}</applicationName>
+				      <environment>${env}</environment>
 				      <workers>${workers}</workers>
-				      <workerType>${workerType}</workerType>
-				      <properties>
-				        <key>value</key>
-				      </properties>
+				      <workerType>${vCore}</workerType>
 				    </cloudHubDeployment>
 		  		</configuration>
 			</plugin>
